@@ -2,15 +2,12 @@ from tweepy import Stream
 from tweepy import StreamListener
 from tweepy import OAuthHandler
 
-#consumer_key=''
-#consumer_secret=''
-#access_token=''
-#access_token_secret=''
+consumer_key=' Enter your key'
+consumer_secret=' Enter your key'
+access_token=' Enter your key'
+access_token_secret=' Enter your key'
 
-access_token = "1088424708935217152-nxrND8jD3JZdNNGX4z45MLyxGc8uFQ"
-access_token_secret = "fg4Nwecl1cibJXs2kL4R2xQEmYYYEfUGVTgbLONfUUD2b"
-consumer_key = "SqYdDfsc5velqliInagjHeWCI"
-consumer_secret = "ZqqSLmybc2o2CbAZcyLWbAYGKQ1ToETpvpyawe5GEaOY97G42K"
+
 
 class Listener(StreamListener):
     def on_data(self,data):
